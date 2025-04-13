@@ -1,34 +1,55 @@
-# Portfolio Site
 
-This is a simple portfolio website designed to showcase projects and skills. It includes sections for navigation, portfolio items, and additional content relevant to the creator's work.
+# Portfolio Website
 
-## Project Structure
+This is a simple and responsive portfolio website created to showcase my projects, skills, and a short video introduction. It is built using basic web technologies: HTML, CSS, and JavaScript.
+
+## Live Site
+
+You can view the live version of the website here:  
+**[https://hilarious-sundae-8e701a.netlify.app/](https://hilarious-sundae-8e701a.netlify.app/)**
+
+## About This Project
+
+The purpose of this project was to develop a personal portfolio website as a part of my academic learning. It includes the following sections:
+
+- Introduction video
+- Navigation bar
+- About me
+- Skills
+- Projects
+- Contact information
+
+This project helped me better understand how HTML, CSS, and JavaScript work together to build a complete static web page.
+
+## Technologies Used
+
+- **Git-copilot** – for code generation
+- **D-ID** – for ai generated video
+- **Netlify** – For hosting and deploying the live site
+
+## File Structure
 
 ```
-portfolio-site
-├── index.html       # Main HTML document for the portfolio site
-├── style.css        # CSS styles for the portfolio site
-└── script.js        # JavaScript functionality for interactivity
+├── index.html        # Main HTML page
+├── style.css         # Custom styles
+├── script.js         # JavaScript for interactivity
+├── introduction.mp4  # Embedded video file
+└── README.md         # Project documentation
 ```
 
-## Getting Started
+## How to Run Locally
 
-To set up the project locally, follow these steps:
+1. Clone the repository:
+   ```
+   git clone https://github.com/Hars99/ai_generated_portfolio.git
+   ```
 
-1. Clone the repository or download the files.
-2. Open `index.html` in your web browser to view the portfolio site.
-3. Customize the content in `index.html`, `style.css`, and `script.js` as needed.
+2. Open `index.html` in any modern browser.
 
-## Features
+---
 
-- Responsive design for various screen sizes
-- Interactive elements powered by JavaScript
-- Clean and modern layout
+## What I Learned
 
-## Contributing
-
-If you would like to contribute to this project, feel free to fork the repository and submit a pull request. 
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
+- Hoew to use git copilot for code generation in vs code
+- how to generate video using ai 
+- Deploying a static website using Netlify
